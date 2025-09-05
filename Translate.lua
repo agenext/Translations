@@ -1,5 +1,5 @@
 Translations = {
-    ["BR"] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/Languages/refs/heads/main/PT-BR.txt"))(),
+    ["BR"] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/Languages/PT-BR.txt"))(),
     ["TH"] = {
 		["994732206"] = {
 			-- Others --
@@ -264,3 +264,4 @@ Translations = {
 	},
 
 }
+
