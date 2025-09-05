@@ -1,1 +1,1 @@
-# Todas Os Idiomas Estão Aqui
+# All Languages Are Here
