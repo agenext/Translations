@@ -12,13 +12,8 @@ local CountryToLang = {
 	["VN"] = "Vietnamese"
 }
 
-local DefaultLang = "English"
-
-local success, countryCode = pcall(function()
-	return game:GetService("LocalizationService"):GetPlayerLocationAsync(LocalPlayer)
-end)
-
-local Lang = (success and countryCode and CountryToLang[countryCode]) or DefaultLang
-
 local Translations = {}
-Translations[Lang] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/OMG/Languages/"..Lang..".txt"))()
+
+for lang, words in CountryToLang do
+Translations[lang] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/OMG/Languages/"..words..".txt"))()
+end
