@@ -1,0 +1,5 @@
+Translations = {
+	["BR"] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/OMG/Languages/BR.txt"))(),
+	["TH"] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/OMG/Languages/TH.txt"))(),
+	["VN"] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/OMG/Languages/VN.txt"))(),
+}
