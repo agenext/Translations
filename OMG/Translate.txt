@@ -1,5 +1,24 @@
-Translations = {
-	["BR"] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/OMG/Languages/BR.txt"))(),
-	["TH"] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/OMG/Languages/TH.txt"))(),
-	["VN"] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/OMG/Languages/VN.txt"))(),
+-- Línguas disponíveis: Portugues, Espanhol, Ingles, Frances, Japones, Coreano, Chines, Vietnamita, Tailandes, Arabic, Persian, Hindi, Bengali, Urdu, Swahili, Russian
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local CountryToLang = {
+	["AO"] = "Portuguese",
+	["BR"] = "Portuguese",
+	["MZ"] = "Portuguese",
+	["PT"] = "Portuguese",
+	["TH"] = "Thai",
+	["VN"] = "Vietnamese"
 }
+
+local DefaultLang = "English"
+
+local success, countryCode = pcall(function()
+	return game:GetService("LocalizationService"):GetPlayerLocationAsync(LocalPlayer)
+end)
+
+local Lang = (success and countryCode and CountryToLang[countryCode]) or DefaultLang
+
+local Translations = {}
+Translations[Lang] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/OMG/Languages/"..Lang..".txt"))()
