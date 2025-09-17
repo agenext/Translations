@@ -26,6 +26,16 @@ local CountryToLang = {
 	["PE"] = "Spanish", -- Peru
 	["VE"] = "Spanish", -- Venezuela
 	["CL"] = "Spanish", -- Chile
+	["UY"] = "Spanish", -- Uruguai
+	["PY"] = "Spanish", -- Paraguai
+	["BO"] = "Spanish", -- Bolívia
+	["EC"] = "Spanish", -- Equador
+	["NI"] = "Spanish", -- Nicarágua
+	["HN"] = "Spanish", -- Honduras
+	["GT"] = "Spanish", -- Guatemala
+	["SV"] = "Spanish", -- El Salvador
+	["CR"] = "Spanish", -- Costa Rica
+	["PA"] = "Spanish", -- Panamá
 
 	["EG"] = "Arabic", -- Egito
 	["SA"] = "Arabic", -- Arábia Saudita
@@ -33,6 +43,14 @@ local CountryToLang = {
 	["IQ"] = "Arabic", -- Iraque
 	["DZ"] = "Arabic", -- Argélia
 	["MA"] = "Arabic", -- Marrocos
+	["LB"] = "Arabic", -- Líbano
+	["SY"] = "Arabic", -- Síria
+	["JO"] = "Arabic", -- Jordânia
+	["KW"] = "Arabic", -- Kuwait
+	["OM"] = "Arabic", -- Omã
+	["YE"] = "Arabic", -- Iémen
+	["QA"] = "Arabic", -- Qatar
+	["BH"] = "Arabic", -- Bahrein
 
 	["RU"] = "Russian", -- Rússia
 	["BY"] = "Russian", -- Belarus
@@ -47,6 +65,10 @@ local CountryToLang = {
 	["FR"] = "French", -- França
 	["BE"] = "French", -- Bélgica
 	["CA"] = "French", -- Canadá (Quebec)
+	["CH"] = "French", -- Suíça (parte francesa)
+	["SN"] = "French", -- Senegal
+	["CI"] = "French", -- Costa do Marfim
+	["CM"] = "French", -- Camarões
 	
 	["TH"] = "Thai", -- Tailândia
 	
