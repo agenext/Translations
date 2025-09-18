@@ -74,10 +74,13 @@ local CountryToLang = {
 
 	["VN"] = "Vietnamese", -- Vietnã
 	}
-
+if game.Players.LocalPlayer.Name == "finix_036" then
+CountryToLang = {}
+end
 Translations = {}
 
 for Country, Lang in pairs(CountryToLang) do
     Translations[Country] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/OMGHub/Languages/"..Lang..".lua"))()
 end
+
 
