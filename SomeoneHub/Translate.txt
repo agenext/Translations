@@ -2,6 +2,7 @@
 
 local CountryToLang = {
 	["BR"] = "Portuguese", -- Brasil
+	--[[
 	["AO"] = "Portuguese", -- Angola
 	["MZ"] = "Portuguese", -- Moçambique
 	["PT"] = "Portuguese", -- Portugal
@@ -73,6 +74,7 @@ local CountryToLang = {
 	["TH"] = "Thai", -- Tailândia
 
 	["VN"] = "Vietnamese", -- Vietnã
+	]]--
 	}
 
 Translations = {}
