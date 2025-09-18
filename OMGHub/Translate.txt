@@ -1,9 +1,9 @@
 -- Línguas disponíveis: Portugues, Inglês, Mandarim, Hindi, Espanhol, Arabe, Bengali, Russo, Japonês, Alemão, Francês, Tailândes, Vietnamita
 
 local CountryToLang = {
-	["AO"] = "Portuguese", -- Angola
+	--["AO"] = "Portuguese", -- Angola
 	["BR"] = "Portuguese", -- Brasil
-	["MZ"] = "Portuguese", -- Moçambique
+--[[	["MZ"] = "Portuguese", -- Moçambique
 	["PT"] = "Portuguese", -- Portugal
 	["GW"] = "Portuguese", -- Guiné-Bissau
 	["CV"] = "Portuguese", -- Cabo Verde
@@ -72,7 +72,7 @@ local CountryToLang = {
 	
 	["TH"] = "Thai", -- Tailândia
 	
-	["VN"] = "Vietnamese", -- Vietnã 
+	["VN"] = "Vietnamese", -- Vietnã ]]--
 }
 
 Translations = {}
