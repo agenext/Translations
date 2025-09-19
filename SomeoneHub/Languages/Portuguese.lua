@@ -17,4 +17,7 @@
 		["Select Font"] = "Selecione A Fonte",
 		["ESP Best Brainrot In The Index"] = "ESP Melhor Brianrot Do Índice",
 		["More FPS"] = "Mais FPS",
+		["ESP Players"] = "ESP Jogadores",
+		["ESP Base Time"] = "ESP Tempo Das Bases",
+		["ESP Best Brainrot"] = "ESP Melhor Brianrot",
 	}
