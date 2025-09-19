@@ -20,4 +20,5 @@
 		["ESP Players"] = "ESP Jogadores",
 		["ESP Base Time"] = "ESP Tempo Das Bases",
 		["ESP Best Brainrot"] = "ESP Melhor Brianrot",
+        ["Your Base"] = "Sua Base",
 	}
