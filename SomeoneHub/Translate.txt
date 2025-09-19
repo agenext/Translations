@@ -2,7 +2,6 @@
 
 local CountryToLang = {
 	["BR"] = "Portuguese", -- Brasil
-	--[[
 	["AO"] = "Portuguese", -- Angola
 	["MZ"] = "Portuguese", -- Moçambique
 	["PT"] = "Portuguese", -- Portugal
@@ -10,7 +9,7 @@ local CountryToLang = {
 	["CV"] = "Portuguese", -- Cabo Verde
 	["ST"] = "Portuguese", -- São Tomé e Príncipe
 	["TL"] = "Portuguese", -- Timor-Leste
-
+--[[
 	["BD"] = "Bengali", -- Bangladesh
 	["IN"] = "Hindi", -- Índia
 	["NP"] = "Hindi", -- Nepal
@@ -82,3 +81,4 @@ Translations = {}
 for Country, Lang in pairs(CountryToLang) do
     Translations[Country] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/SomeoneHub/Languages/"..Lang..".lua"))() or {}
 end
+
