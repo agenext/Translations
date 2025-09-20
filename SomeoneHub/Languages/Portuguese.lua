@@ -20,7 +20,7 @@
 		["ESP Best Brainrot In The Index"] = "ESP Melhor Brianrot No Índice",
 		["More FPS"] = "Mais FPS",
 		["Unlock FPS"] = "Desbloquear FPS",
-		["Your Base"] = "Palavra",
+		["Your Base"] = "Sua Base",
 		["Unlocked"] = "Desbloqueada",
 		["Common"] = "Comum",
 		["Gold"] = "Ouro",
