@@ -1,112 +1,117 @@
--- Línguas disponíveis: Portugues, Inglês, Mandarim, Hindi, Espanhol, Arabe, Bengali, Russo, Japonês, Alemão, Francês, Tailândes, Vietnamita
-
-local CountryToLang = {
-    -- Portuguese
-    ["BR"] = "Portuguese", -- Brasil
-    ["AO"] = "Portuguese", -- Angola
-    ["MZ"] = "Portuguese", -- Moçambique
-    ["PT"] = "Portuguese", -- Portugal
-    ["GW"] = "Portuguese", -- Guiné-Bissau
-    ["CV"] = "Portuguese", -- Cabo Verde
-    ["ST"] = "Portuguese", -- São Tomé e Príncipe
-    ["TL"] = "Portuguese", -- Timor-Leste
-
-    -- Bengali
-    ["BD"] = "Bengali", -- Bangladesh
-
-    -- Hindi
-    ["IN"] = "Hindi", -- Índia
-    ["NP"] = "Hindi", -- Nepal
-
-    -- Mandarin / Chinês
-    ["CN"] = "Mandarin", -- China
-    ["SG"] = "Mandarin", -- Singapura
-    ["TW"] = "Mandarin", -- Taiwan
-    ["MY"] = "Mandarin", -- Malásia
-    ["HK"] = "Mandarin", -- Hong Kong
-    ["MO"] = "Mandarin", -- Macau
-
-    -- Spanish
-    ["ES"] = "Spanish", -- Espanha
-    ["MX"] = "Spanish", -- México
-    ["AR"] = "Spanish", -- Argentina
-    ["CO"] = "Spanish", -- Colômbia
-    ["PE"] = "Spanish", -- Peru
-    ["VE"] = "Spanish", -- Venezuela
-    ["CL"] = "Spanish", -- Chile
-    ["UY"] = "Spanish", -- Uruguai
-    ["PY"] = "Spanish", -- Paraguai
-    ["BO"] = "Spanish", -- Bolívia
-    ["EC"] = "Spanish", -- Equador
-    ["NI"] = "Spanish", -- Nicarágua
-    ["HN"] = "Spanish", -- Honduras
-    ["GT"] = "Spanish", -- Guatemala
-    ["SV"] = "Spanish", -- El Salvador
-    ["CR"] = "Spanish", -- Costa Rica
-    ["PA"] = "Spanish", -- Panamá
-    ["CU"] = "Spanish", -- Cuba
-    ["DO"] = "Spanish", -- República Dominicana
-    ["PR"] = "Spanish", -- Porto Rico
-
-    -- Arabic
-    ["EG"] = "Arabic", -- Egito
-    ["SA"] = "Arabic", -- Arábia Saudita
-    ["AE"] = "Arabic", -- Emirados Árabes Unidos
-    ["IQ"] = "Arabic", -- Iraque
-    ["DZ"] = "Arabic", -- Argélia
-    ["MA"] = "Arabic", -- Marrocos
-    ["LB"] = "Arabic", -- Líbano
-    ["SY"] = "Arabic", -- Síria
-    ["JO"] = "Arabic", -- Jordânia
-    ["KW"] = "Arabic", -- Kuwait
-    ["OM"] = "Arabic", -- Omã
-    ["YE"] = "Arabic", -- Iémen
-    ["QA"] = "Arabic", -- Qatar
-    ["BH"] = "Arabic", -- Bahrein
-    ["SD"] = "Arabic", -- Sudão
-    ["LY"] = "Arabic", -- Líbia
-    ["MR"] = "Arabic", -- Mauritânia
-
-    -- Russian
-    ["RU"] = "Russian", -- Rússia
-    ["BY"] = "Russian", -- Belarus
-    ["KZ"] = "Russian", -- Cazaquistão
-    ["KG"] = "Russian", -- Quirguistão
-    ["UA"] = "Russian", -- Ucrânia
-
-    -- Japanese
-    ["JP"] = "Japanese", -- Japão
-
-    -- German
-    ["DE"] = "German", -- Alemanha
-    ["AT"] = "German", -- Áustria
-    ["CH"] = "German", -- Suíça
-    ["LI"] = "German", -- Liechtenstein
-
-    -- French
-    ["FR"] = "French", -- França
-    ["BE"] = "French", -- Bélgica
-    ["CA"] = "French", -- Canadá (Quebec)
-    ["SN"] = "French", -- Senegal
-    ["CI"] = "French", -- Costa do Marfim
-    ["CM"] = "French", -- Camarões
-    ["BJ"] = "French", -- Benin
-    ["BF"] = "French", -- Burkina Faso
-    ["NE"] = "French", -- Níger
-    ["ML"] = "French", -- Mali
-    ["RW"] = "French", -- Ruanda
-    ["CG"] = "French", -- Congo
-    ["CD"] = "French", -- RDC
-
-    -- Thai
-    ["TH"] = "Thai", -- Tailândia
-
-    -- Vietnamese
-    ["VN"] = "Vietnamese", -- Vietnã
-}
 
 Translations = {}
 
-for Country, Lang in pairs(CountryToLang) do
+local Languages = {
+    "Arabic",
+    "Bengali",
+    "French",
+    "German",
+    "Hindi",
+    "Japanese",
+    "Mandarin",
+    "Portuguese",
+    "Russian",
+    "Spanish",
+    "Thai",
+    "Vietnamese"
+}
+
+local CountryToLang = {
+    ["AE"] = "Arabic", -- Emirados Árabes Unidos
+    ["BH"] = "Arabic", -- Bahrein
+    ["DZ"] = "Arabic", -- Argélia
+    ["EG"] = "Arabic", -- Egito
+    ["IQ"] = "Arabic", -- Iraque
+    ["JO"] = "Arabic", -- Jordânia
+    ["KW"] = "Arabic", -- Kuwait
+    ["LY"] = "Arabic", -- Líbia
+    ["MA"] = "Arabic", -- Marrocos
+    ["MR"] = "Arabic", -- Mauritânia
+    ["OM"] = "Arabic", -- Omã
+    ["QA"] = "Arabic", -- Qatar
+    ["SA"] = "Arabic", -- Arábia Saudita
+    ["SD"] = "Arabic", -- Sudão
+    ["SY"] = "Arabic", -- Síria
+    ["YE"] = "Arabic", -- Iémen
+
+    ["BD"] = "Bengali", -- Bangladesh
+
+    ["BE"] = "French", -- Bélgica
+    ["BJ"] = "French", -- Benin
+    ["BF"] = "French", -- Burkina Faso
+    ["CA"] = "French", -- Canadá (Quebec)
+    ["CD"] = "French", -- RDC
+    ["CI"] = "French", -- Costa do Marfim
+    ["CM"] = "French", -- Camarões
+    ["FR"] = "French", -- França
+    ["ML"] = "French", -- Mali
+    ["NE"] = "French", -- Níger
+    ["RW"] = "French", -- Ruanda
+    ["SN"] = "French", -- Senegal
+    ["CG"] = "French", -- Congo
+
+    ["AT"] = "German", -- Áustria
+    ["CH"] = "German", -- Suíça
+    ["DE"] = "German", -- Alemanha
+    ["LI"] = "German", -- Liechtenstein
+
+    ["IN"] = "Hindi", -- Índia
+    ["NP"] = "Hindi", -- Nepal
+
+    ["JP"] = "Japanese", -- Japão
+
+    ["CN"] = "Mandarin", -- China
+    ["HK"] = "Mandarin", -- Hong Kong
+    ["MO"] = "Mandarin", -- Macau
+    ["MY"] = "Mandarin", -- Malásia
+    ["SG"] = "Mandarin", -- Singapura
+    ["TW"] = "Mandarin", -- Taiwan
+
+    ["AO"] = "Portuguese", -- Angola
+    ["BR"] = "Portuguese", -- Brasil
+    ["CV"] = "Portuguese", -- Cabo Verde
+    ["GW"] = "Portuguese", -- Guiné-Bissau
+    ["MZ"] = "Portuguese", -- Moçambique
+    ["PT"] = "Portuguese", -- Portugal
+    ["ST"] = "Portuguese", -- São Tomé e Príncipe
+    ["TL"] = "Portuguese", -- Timor-Leste
+
+    ["BY"] = "Russian", -- Belarus
+    ["KG"] = "Russian", -- Quirguistão
+    ["KZ"] = "Russian", -- Cazaquistão
+    ["RU"] = "Russian", -- Rússia
+    ["UA"] = "Russian", -- Ucrânia
+
+    ["AR"] = "Spanish", -- Argentina
+    ["BO"] = "Spanish", -- Bolívia
+    ["CL"] = "Spanish", -- Chile
+    ["CO"] = "Spanish", -- Colômbia
+    ["CR"] = "Spanish", -- Costa Rica
+    ["CU"] = "Spanish", -- Cuba
+    ["DO"] = "Spanish", -- República Dominicana
+    ["EC"] = "Spanish", -- Equador
+    ["ES"] = "Spanish", -- Espanha
+    ["GT"] = "Spanish", -- Guatemala
+    ["HN"] = "Spanish", -- Honduras
+    ["MX"] = "Spanish", -- México
+    ["NI"] = "Spanish", -- Nicarágua
+    ["PA"] = "Spanish", -- Panamá
+    ["PE"] = "Spanish", -- Peru
+    ["PR"] = "Spanish", -- Porto Rico
+    ["PY"] = "Spanish", -- Paraguai
+    ["SV"] = "Spanish", -- El Salvador
+    ["UY"] = "Spanish", -- Uruguai
+    ["VE"] = "Spanish", -- Venezuela
+
+    ["TH"] = "Thai", -- Tailândia
+
+    ["VN"] = "Vietnamese", -- Vietnã
+}
+
+for _, Lang in pairs(Languages) do
+    Translations[Lang] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/SomeoneHub/Languages/"..Lang..".lua"))() or {}
+end
+
+for Country, Lang in pairs(Languages) do
     Translations[Country] = loadstring(game:HttpGet("https://raw.githubusercontent.com/agenext/Translations/refs/heads/main/SomeoneHub/Languages/"..Lang..".lua"))() or {}
 end
