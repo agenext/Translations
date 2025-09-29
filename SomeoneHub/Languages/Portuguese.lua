@@ -1,3 +1,4 @@
 	return {
-		["Tab Farm Main"] = "Farm Principal",
+		["Main Farm"] = "Farm Principal",
 	}
+
