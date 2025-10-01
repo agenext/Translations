@@ -30,7 +30,7 @@ return {
 		["Social Media"] = "Mídias Sociais",
 		["Official Vortex Hub"] = "Vortex Hub Oficial",
 		["Join The Community To Discover Even More Amazing Things"] = "Junte-se À Comunidade Para Descobrir Coisas Ainda Mais Incríveis",
-		["Oka"] = "Palavra",
+		["Oka"] = "Oka",
 		["Sign Up For Showcases And Script Updates"] = "Inscreva-se Para Receber Atualizações De Roteiros E Apresentações",
 		-- Stats --
 		["Stats"] = "Estatísticas",
@@ -40,7 +40,7 @@ return {
 		["Up Defense"] = "Upar Defesa",
 		["Up Sword"] = "Upar Espada",
 		["Up Gun"] = "Upar Arma",
-		["Up Blox Fruits"] = "Upar Frutas Blox",
+		["Up Blox Fruits"] = "Upar Fruta Blox",
 		-- Main Farm --
 		-- Bosses --
 		-- Items --
@@ -60,7 +60,7 @@ return {
 		["Main Settings"] = "Configurações Principais",
 		["Select Weapon"] = "Selecione A Ferramenta",
 		["Tween Speed"] = "Velocidade Do Vôo",
-		["Auto Buso"] = "Busl Automático",
+		["Auto Buso"] = "Buso Automático",
 		["Bring Enemies"] = "Trazer Os Inimigos",
 		["Auto Attack"] = "Ataque Automático",
 		["Others Settings"] = "Outras Configurações",
@@ -85,7 +85,7 @@ return {
 		["Join Marines"] = "Junte-se Aos Marinheiros",
 		["Select Team"] = "Selecione A Equipe",
 		["Auto Choose Team"] = "Escolher Equipe",
-		["More FPS"] = "Desativar Notificações",
+		["More FPS"] = "Mais FPS",
 		["Disable Notifications"] = "Desativar Notificações",
 		["Others"] = "Outros",
 		["Send Ally"] = "Enviar Aliado",
