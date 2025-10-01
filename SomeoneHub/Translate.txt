@@ -4,19 +4,33 @@ Translations = {}
 local Languages = {
     "Arabic",
     "Bengali",
+    "Burmese",
+    "Dutch",
+    "Filipino",
     "French",
     "German",
+    "Hebrew",
     "Hindi",
+    "Indonesian",
+    "Italian",
     "Japanese",
+    "Korean",
     "Mandarin",
+    "Norwegian",
+    "Persian",
+    "Polish",
     "Portuguese",
     "Russian",
     "Spanish",
+    "Swedish",
     "Thai",
+    "Turkish",
+    "Urdu",
     "Vietnamese"
 }
 
 local CountryToLang = {
+    -- Arabic
     ["AE"] = "Arabic", -- Emirados Árabes Unidos
     ["BH"] = "Arabic", -- Bahrein
     ["DZ"] = "Arabic", -- Argélia
@@ -34,8 +48,19 @@ local CountryToLang = {
     ["SY"] = "Arabic", -- Síria
     ["YE"] = "Arabic", -- Iémen
 
+    -- Bengali
     ["BD"] = "Bengali", -- Bangladesh
 
+    -- Burmese
+    ["MM"] = "Burmese", -- Mianmar
+
+    -- Dutch
+    ["NL"] = "Dutch", -- Países Baixos
+
+    -- Filipino
+    ["PH"] = "Filipino", -- Filipinas
+
+    -- French
     ["BE"] = "French", -- Bélgica
     ["BJ"] = "French", -- Benin
     ["BF"] = "French", -- Burkina Faso
@@ -50,16 +75,32 @@ local CountryToLang = {
     ["SN"] = "French", -- Senegal
     ["CG"] = "French", -- Congo
 
+    -- German
     ["AT"] = "German", -- Áustria
     ["CH"] = "German", -- Suíça
     ["DE"] = "German", -- Alemanha
     ["LI"] = "German", -- Liechtenstein
 
+    -- Hebrew
+    ["IL"] = "Hebrew", -- Israel
+
+    -- Hindi
     ["IN"] = "Hindi", -- Índia
     ["NP"] = "Hindi", -- Nepal
 
+    -- Indonesian
+    ["ID"] = "Indonesian", -- Indonésia
+
+    -- Italian
+    ["IT"] = "Italian", -- Itália
+
+    -- Japanese
     ["JP"] = "Japanese", -- Japão
 
+    -- Korean
+    ["KR"] = "Korean", -- Coreia do Sul
+
+    -- Mandarin
     ["CN"] = "Mandarin", -- China
     ["HK"] = "Mandarin", -- Hong Kong
     ["MO"] = "Mandarin", -- Macau
@@ -67,6 +108,16 @@ local CountryToLang = {
     ["SG"] = "Mandarin", -- Singapura
     ["TW"] = "Mandarin", -- Taiwan
 
+    -- Norwegian
+    ["NO"] = "Norwegian", -- Noruega
+
+    -- Persian
+    ["IR"] = "Persian", -- Irã
+
+    -- Polish
+    ["PL"] = "Polish", -- Polônia
+
+    -- Portuguese
     ["AO"] = "Portuguese", -- Angola
     ["BR"] = "Portuguese", -- Brasil
     ["CV"] = "Portuguese", -- Cabo Verde
@@ -76,12 +127,14 @@ local CountryToLang = {
     ["ST"] = "Portuguese", -- São Tomé e Príncipe
     ["TL"] = "Portuguese", -- Timor-Leste
 
+    -- Russian
     ["BY"] = "Russian", -- Belarus
     ["KG"] = "Russian", -- Quirguistão
     ["KZ"] = "Russian", -- Cazaquistão
     ["RU"] = "Russian", -- Rússia
     ["UA"] = "Russian", -- Ucrânia
 
+    -- Spanish
     ["AR"] = "Spanish", -- Argentina
     ["BO"] = "Spanish", -- Bolívia
     ["CL"] = "Spanish", -- Chile
@@ -103,8 +156,19 @@ local CountryToLang = {
     ["UY"] = "Spanish", -- Uruguai
     ["VE"] = "Spanish", -- Venezuela
 
+    -- Swedish
+    ["SE"] = "Swedish", -- Suécia
+
+    -- Thai
     ["TH"] = "Thai", -- Tailândia
 
+    -- Turkish
+    ["TR"] = "Turkish", -- Turquia
+
+    -- Urdu
+    ["PK"] = "Urdu", -- Paquistão
+
+    -- Vietnamese
     ["VN"] = "Vietnamese", -- Vietnã
 }
 
